@@ -25,7 +25,7 @@ public class VeterinariaVista {
                 System.out.println("No hay mascota registrada");
             } else {
                 for(Mascota mascota : mascotas){
-                    System.out.println("    * " + mascota.toString());
+                    System.out.println("    * " + mascota.AnimalToString());
                 }
             }
             System.out.println();

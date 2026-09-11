@@ -46,8 +46,7 @@ public class Animal {
         this.peso = peso;
     }
 
-    @Override
-    public String toString() {
-        return "Animal{" + "nombre=" + nombre + ", especie=" + especie + ", peso=" + peso + '}';
+    public String AnimalToString() {
+        return "Animal{" + "nombre=" + nombre + ", especie=" + especie + ", peso=" + peso + "kg)";
     }
 }

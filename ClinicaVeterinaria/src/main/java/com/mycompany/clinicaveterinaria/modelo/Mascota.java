@@ -13,6 +13,7 @@ public class Mascota extends Animal {
     private int edad;
 
     public Mascota() {
+        super();
     }
     
     public Mascota(String nombre, String especie, double peso, String raza, int edad) {
@@ -38,7 +39,7 @@ public class Mascota extends Animal {
     }
 
     @Override
-    public String toString() {
-        return "Mascota{" + "raza=" + raza + ", edad=" + edad + '}';
+    public String AnimalToString() {
+        return super.AnimalToString() + ", raza=" + raza + ", edad=" + edad + '}';
     }
 }
