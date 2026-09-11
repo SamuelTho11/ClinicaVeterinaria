@@ -8,6 +8,7 @@ package com.mycompany.clinicaveterinaria.modelo;
  *
  * @author Estudiante
  */
-public class Mascota {
-    
+public class Mascota extends Animal {
+    private String raza;
+    private int edad;
 }

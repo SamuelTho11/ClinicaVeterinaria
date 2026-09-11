@@ -9,5 +9,7 @@ package com.mycompany.clinicaveterinaria.modelo;
  * @author Estudiante
  */
 public class Animal {
-    
+    private String nombre;
+    private String especie;
+    private double peso;
 }

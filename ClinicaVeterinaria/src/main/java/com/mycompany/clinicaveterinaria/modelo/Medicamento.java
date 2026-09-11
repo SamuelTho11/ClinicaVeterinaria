@@ -9,5 +9,6 @@ package com.mycompany.clinicaveterinaria.modelo;
  * @author Estudiante
  */
 public class Medicamento {
-    
+    private String nombre;
+    private String dosis;
 }

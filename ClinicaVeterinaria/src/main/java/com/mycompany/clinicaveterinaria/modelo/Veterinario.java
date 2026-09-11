@@ -4,10 +4,14 @@
  */
 package com.mycompany.clinicaveterinaria.modelo;
 
+import java.util.List;
+
 /**
  *
  * @author Estudiante
  */
 public class Veterinario {
-    
+    private String nombre;
+    private String especialidad;
+    private List<Consulta> consultas;
 }
