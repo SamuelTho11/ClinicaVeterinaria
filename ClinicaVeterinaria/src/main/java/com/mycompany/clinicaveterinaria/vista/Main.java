@@ -4,13 +4,15 @@
  */
 package com.mycompany.clinicaveterinaria.vista;
 
+import com.mycompany.clinicaveterinaria.controlador.ClinicaController;
 /**
  *
  * @author Samuel
  */
 public class Main {
     public static void main(String[] args){
-        System.out.println("Hola mundo!");
+        ClinicaController controller = new ClinicaController();
+        controller.iniciar();
     }
     
 }
