@@ -15,7 +15,7 @@ public class Mascota extends Animal {
     public Mascota() {
     }
     
-    public Mascota(String raza, int edad, String nombre, String especie, double peso) {
+    public Mascota(String nombre, String especie, double peso, String raza, int edad) {
         super(nombre, especie, peso);
         this.raza = raza;
         this.edad = edad;

@@ -20,7 +20,7 @@ public class Veterinario {
         this.consultas = new ArrayList<>();
     }
 
-    public Veterinario(String nombre, String especialidad, List<Consulta> consultas) {
+    public Veterinario(String nombre, String especialidad) {
         this.nombre = nombre;
         this.especialidad = especialidad;
         this.consultas = new ArrayList<>();

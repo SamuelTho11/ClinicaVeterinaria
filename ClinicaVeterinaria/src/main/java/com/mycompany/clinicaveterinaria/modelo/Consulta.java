@@ -21,7 +21,7 @@ public class Consulta {
         this.medicamentos = new ArrayList<>();
     }
 
-    public Consulta(String motivo, String fecha, Mascota mascota, List<Medicamento> medicamentos) {
+    public Consulta(String motivo, String fecha, Mascota mascota) {
         this.motivo = motivo;
         this.fecha = fecha;
         this.mascota = mascota;

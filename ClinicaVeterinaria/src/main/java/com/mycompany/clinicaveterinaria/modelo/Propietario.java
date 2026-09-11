@@ -17,12 +17,13 @@ public class Propietario {
     private String telefono;
 
     public Propietario() {
+        this.mascotas = new ArrayList<>();
     }
 
-    public Propietario(String nombre, List<Mascota> mascotas, String telefono) {
+    public Propietario(String nombre, String telefono) {
         this.nombre = nombre;
-        this.mascotas = new ArrayList<>();
         this.telefono = telefono;
+        this.mascotas = new ArrayList<>();
     }
 
     public String getNombre() {
